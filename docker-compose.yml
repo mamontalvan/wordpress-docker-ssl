@@ -52,7 +52,7 @@ services:
     restart: always
   mariadb:
     restart: always
-    image: mariadb
+    image: mariadb:10.8.2
     volumes:
       - mariadb:/var/lib/mysql
     environment:
